@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F43DF3D52CB17C66000DAD1B /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = F43DF3D42CB17C66000DAD1B /* MarkdownUI */; };
+		F47F8E5B2C9F380A00784351 /* CoreXLSX in Frameworks */ = {isa = PBXBuildFile; productRef = F47F8E5A2C9F380A00784351 /* CoreXLSX */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4761A2A2C9B05040084B695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4761A112C9B045E0084B695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4761A182C9B045E0084B695;
+			remoteInfo = "romantic-self";
+		};
+		F4761A342C9B05040084B695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4761A112C9B045E0084B695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4761A182C9B045E0084B695;
+			remoteInfo = "romantic-self";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4761A192C9B045E0084B695 /* romantic-self.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "romantic-self.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4761A292C9B05040084B695 /* romantic-selfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "romantic-selfTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4761A332C9B05040084B695 /* romantic-selfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "romantic-selfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F4BAD52C2C9B34EE00D17623 /* Exceptions for "romantic-self" folder in "romantic-self" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				SplashView.swift,
+			);
+			target = F4761A182C9B045E0084B695 /* romantic-self */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		F4BAD52D2C9B34EE00D17623 /* Exceptions for "romantic-self" folder in "Copy Bundle Resources" phase from "romantic-self" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = F4761A172C9B045E0084B695 /* Resources */;
+			membershipExceptions = (
+				SplashView.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F4761A1B2C9B045E0084B695 /* romantic-self */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F4BAD52C2C9B34EE00D17623 /* Exceptions for "romantic-self" folder in "romantic-self" target */,
+				F4BAD52D2C9B34EE00D17623 /* Exceptions for "romantic-self" folder in "Copy Bundle Resources" phase from "romantic-self" target */,
+			);
+			path = "romantic-self";
+			sourceTree = "<group>";
+		};
+		F4761A2C2C9B05040084B695 /* romantic-selfTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "romantic-selfTests";
+			sourceTree = "<group>";
+		};
+		F4761A362C9B05040084B695 /* romantic-selfUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "romantic-selfUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4761A162C9B045E0084B695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47F8E5B2C9F380A00784351 /* CoreXLSX in Frameworks */,
+				F43DF3D52CB17C66000DAD1B /* MarkdownUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4761A262C9B05040084B695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4761A302C9B05040084B695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4761A102C9B045E0084B695 = {
+			isa = PBXGroup;
+			children = (
+				F4761A1B2C9B045E0084B695 /* romantic-self */,
+				F4761A2C2C9B05040084B695 /* romantic-selfTests */,
+				F4761A362C9B05040084B695 /* romantic-selfUITests */,
+				F4761A1A2C9B045E0084B695 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4761A1A2C9B045E0084B695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4761A192C9B045E0084B695 /* romantic-self.app */,
+				F4761A292C9B05040084B695 /* romantic-selfTests.xctest */,
+				F4761A332C9B05040084B695 /* romantic-selfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4761A182C9B045E0084B695 /* romantic-self */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4761A3D2C9B05040084B695 /* Build configuration list for PBXNativeTarget "romantic-self" */;
+			buildPhases = (
+				F4761A152C9B045E0084B695 /* Sources */,
+				F4761A162C9B045E0084B695 /* Frameworks */,
+				F4761A172C9B045E0084B695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F4761A1B2C9B045E0084B695 /* romantic-self */,
+			);
+			name = "romantic-self";
+			packageProductDependencies = (
+				F47F8E5A2C9F380A00784351 /* CoreXLSX */,
+				F43DF3D42CB17C66000DAD1B /* MarkdownUI */,
+			);
+			productName = "romantic-self";
+			productReference = F4761A192C9B045E0084B695 /* romantic-self.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4761A282C9B05040084B695 /* romantic-selfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4761A402C9B05040084B695 /* Build configuration list for PBXNativeTarget "romantic-selfTests" */;
+			buildPhases = (
+				F4761A252C9B05040084B695 /* Sources */,
+				F4761A262C9B05040084B695 /* Frameworks */,
+				F4761A272C9B05040084B695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4761A2B2C9B05040084B695 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F4761A2C2C9B05040084B695 /* romantic-selfTests */,
+			);
+			name = "romantic-selfTests";
+			packageProductDependencies = (
+			);
+			productName = "romantic-selfTests";
+			productReference = F4761A292C9B05040084B695 /* romantic-selfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4761A322C9B05040084B695 /* romantic-selfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4761A432C9B05040084B695 /* Build configuration list for PBXNativeTarget "romantic-selfUITests" */;
+			buildPhases = (
+				F4761A2F2C9B05040084B695 /* Sources */,
+				F4761A302C9B05040084B695 /* Frameworks */,
+				F4761A312C9B05040084B695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4761A352C9B05040084B695 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F4761A362C9B05040084B695 /* romantic-selfUITests */,
+			);
+			name = "romantic-selfUITests";
+			packageProductDependencies = (
+			);
+			productName = "romantic-selfUITests";
+			productReference = F4761A332C9B05040084B695 /* romantic-selfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4761A112C9B045E0084B695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F4761A182C9B045E0084B695 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F4761A282C9B05040084B695 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F4761A182C9B045E0084B695;
+					};
+					F4761A322C9B05040084B695 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F4761A182C9B045E0084B695;
+					};
+				};
+			};
+			buildConfigurationList = F4761A142C9B045E0084B695 /* Build configuration list for PBXProject "romantic-self" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4761A102C9B045E0084B695;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F47F8E592C9F380A00784351 /* XCRemoteSwiftPackageReference "CoreXLSX" */,
+				F43DF3D32CB17C66000DAD1B /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F4761A1A2C9B045E0084B695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4761A182C9B045E0084B695 /* romantic-self */,
+				F4761A282C9B05040084B695 /* romantic-selfTests */,
+				F4761A322C9B05040084B695 /* romantic-selfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4761A172C9B045E0084B695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4761A272C9B05040084B695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4761A312C9B05040084B695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4761A152C9B045E0084B695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4761A252C9B05040084B695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4761A2F2C9B05040084B695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4761A2B2C9B05040084B695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4761A182C9B045E0084B695 /* romantic-self */;
+			targetProxy = F4761A2A2C9B05040084B695 /* PBXContainerItemProxy */;
+		};
+		F4761A352C9B05040084B695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4761A182C9B045E0084B695 /* romantic-self */;
+			targetProxy = F4761A342C9B05040084B695 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4761A3B2C9B05040084B695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4761A3C2C9B05040084B695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4761A3E2C9B05040084B695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"romantic-self/Preview Content\"";
+				DEVELOPMENT_TEAM = 35VX276H5M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "romantic-self/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yyy.romantic-self";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4761A3F2C9B05040084B695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"romantic-self/Preview Content\"";
+				DEVELOPMENT_TEAM = 35VX276H5M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "romantic-self/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yyy.romantic-self";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4761A412C9B05040084B695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35VX276H5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yyy.romantic-selfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/romantic-self.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/romantic-self";
+			};
+			name = Debug;
+		};
+		F4761A422C9B05040084B695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35VX276H5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yyy.romantic-selfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/romantic-self.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/romantic-self";
+			};
+			name = Release;
+		};
+		F4761A442C9B05040084B695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35VX276H5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yyy.romantic-selfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "romantic-self";
+			};
+			name = Debug;
+		};
+		F4761A452C9B05040084B695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35VX276H5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yyy.romantic-selfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "romantic-self";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4761A142C9B045E0084B695 /* Build configuration list for PBXProject "romantic-self" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4761A3B2C9B05040084B695 /* Debug */,
+				F4761A3C2C9B05040084B695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4761A3D2C9B05040084B695 /* Build configuration list for PBXNativeTarget "romantic-self" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4761A3E2C9B05040084B695 /* Debug */,
+				F4761A3F2C9B05040084B695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4761A402C9B05040084B695 /* Build configuration list for PBXNativeTarget "romantic-selfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4761A412C9B05040084B695 /* Debug */,
+				F4761A422C9B05040084B695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4761A432C9B05040084B695 /* Build configuration list for PBXNativeTarget "romantic-selfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4761A442C9B05040084B695 /* Debug */,
+				F4761A452C9B05040084B695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F43DF3D32CB17C66000DAD1B /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.0;
+			};
+		};
+		F47F8E592C9F380A00784351 /* XCRemoteSwiftPackageReference "CoreXLSX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/CoreXLSX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.14.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F43DF3D42CB17C66000DAD1B /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F43DF3D32CB17C66000DAD1B /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
+		F47F8E5A2C9F380A00784351 /* CoreXLSX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F47F8E592C9F380A00784351 /* XCRemoteSwiftPackageReference "CoreXLSX" */;
+			productName = CoreXLSX;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F4761A112C9B045E0084B695 /* Project object */;
+}
